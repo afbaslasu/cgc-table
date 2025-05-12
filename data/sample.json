@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "role": "Admin"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "role": "Editor"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "email": "charlie@example.com",
+    "role": "Viewer"
+  },
+  {
+    "id": 4,
+    "name": "Diana Prince",
+    "email": "diana@example.com",
+    "role": "Admin"
+  },
+  {
+    "id": 5,
+    "name": "Ethan Hunt",
+    "email": "ethan@example.com",
+    "role": "Editor"
+  },
+  {
+    "id": 6,
+    "name": "Fiona Gallagher",
+    "email": "fiona@example.com",
+    "role": "Viewer"
+  },
+  {
+    "id": 7,
+    "name": "George Martin",
+    "email": "george@example.com",
+    "role": "Admin"
+  },
+  {
+    "id": 8,
+    "name": "Hannah Baker",
+    "email": "hannah@example.com",
+    "role": "Editor"
+  },
+  {
+    "id": 9,
+    "name": "Ian Malcolm",
+    "email": "ian@example.com",
+    "role": "Viewer"
+  },
+  { "id": 10, "name": "Jane Doe", "email": "jane@example.com", "role": "Admin" }
+]

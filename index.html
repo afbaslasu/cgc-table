@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Table</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Advanced Table</h2>
+    <div class="mb-3">
+      <input type="text" id="searchInput" class="form-control" placeholder="Search..."/>
+    </div>
+    <form id="addForm" class="form-inline mb-3">
+      <input type="text" id="addName" class="form-control mr-2" placeholder="Name" required/>
+      <input type="email" id="addEmail" class="form-control mr-2" placeholder="Email" required/>
+      <input type="text" id="addRole" class="form-control mr-2" placeholder="Role"/>
+      <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+    <table class="table table-bordered table-hover" id="dataTable">
+      <thead class="thead-dark">
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="dataTableBody">
+        <!-- Data rows will be injected here -->
+      </tbody>
+    </table>
+    <nav>
+      <ul class="pagination" id="pagination">
+        <!-- Pagination controls will be injected here -->
+      </ul>
+    </nav>
+    <button id="exportBtn" class="btn btn-success mt-3">Export CSV</button>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

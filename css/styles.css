@@ -1,0 +1,13 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.editing {
+  background-color: #fff3cd;
+  border: 2px solid #007bff;
+  outline: none;
+}
+
+.pagination {
+  justify-content: center;
+}
